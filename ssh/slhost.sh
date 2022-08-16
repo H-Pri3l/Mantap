@@ -18,8 +18,8 @@ mkdir -p /etc/xray
 mkdir -p /etc/v2ray
 echo "$SUB_DOMAIN" >> /etc/v2ray/domain
 #
-sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
+sub=$(</dev/urandom tr -dc a-z0-9 | head -c2)
+subsl=$(</dev/urandom tr -dc a-z0-9 | head -c2)
 DOMAIN=warungawan.my.id
 SUB_DOMAIN=vip-${sub}.warungawan.my.id
 NS_DOMAIN=dns-${sub}.warungawan.my.id
