@@ -22,7 +22,7 @@ sub=$(</dev/urandom tr -dc a-z0-9 | head -c2)
 subsl=$(</dev/urandom tr -dc a-z0-9 | head -c2)
 DOMAIN=warungawan.my.id
 SUB_DOMAIN=vip-${sub}.warungawan.my.id
-NS_DOMAIN=vip-${subsl}.warungawan.my.jd
+NS_DOMAIN=dns-${subsl}.warungawan.my.jd
 CF_ID=akrnawan25@gmail.com
 CF_KEY=9e2ffa0ac14915a576c8eac49fd5dcd7485f7
 set -euo pipefail
